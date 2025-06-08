@@ -1,9 +1,11 @@
 import React from 'react'
-import { user } from './Component/user'
-export const App = () => {
+import {ToggleSwitch } from './Projects/ToggleSwitchp/ToggleSwitch.jsx'
+const App = () => {
   return (
     <>
-    <user />
+    <ToggleSwitch/>
     </>
   )
 }
+
+export default App
